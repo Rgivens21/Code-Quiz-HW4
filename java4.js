@@ -1,4 +1,4 @@
-
+//This thing is a freaking disaster. I didn't have the time because of work to make this any better. I'll be resubmitting it for sure. 
 var timeEl = document.querySelector(".timer");
 var startButton = document.querySelector(".start");
 var codeQuestions = document.querySelector(".question");
@@ -65,6 +65,7 @@ startButton.addEventListener("click", function(){
 })
   
     //When we answer a question, that question should disappear and the next should pop up
+    questions.setAttribute()
   
 
 
@@ -79,12 +80,6 @@ function correct() {
   score += 1;
   next();
 }
-
-
-    //When we get to the end of the question array we want to save the time 
-
-
-
 
 
     //store the scores on local storage
@@ -109,8 +104,6 @@ function getScore() {
 
 
     //When the quiz is finished we want to show a results page
-
-
     //On the results page we want the user to be able to submit their initials and log their totals
     var quizContent = `
     <h2>Game over!</h2>
